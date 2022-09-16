@@ -1,0 +1,26 @@
+.pion1 {
+    position: fixed;
+    left:0;
+    bottom:0;
+    top: 60px;
+    background-color: white;
+    width: 72px;
+}
+.przycisk2 {
+    height:74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.przycisk2:hover {
+    background-color: rgb(208, 208, 208);
+}
+.przycisk2 img{
+    height: 26px;
+}
+.przycisk2 div {
+    font-family: Roboto;
+    font-size: 10px;
+    color: black;
+}

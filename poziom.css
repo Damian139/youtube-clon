@@ -1,0 +1,131 @@
+header {
+    display: flex;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    z-index:2;
+
+}
+.hamburger {
+    width: 30px;
+    margin-left: 9px;
+}
+.logo {
+    width: 100px;
+    padding-bottom: 4.5px;
+    margin-left: 11px;
+}
+.środek {
+    flex: 1;
+    display: flex;
+    max-width: 600px;
+    align-items: center;
+}
+.lupa {
+    height: 24px;
+}
+.search {
+    width: 60px;
+    position: relative;
+}
+.wskazówka {
+    
+    position: absolute;
+    background-color: rgb(57, 57, 57);
+    color: white;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-weight: 500;
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    bottom: -30px;
+    left:-6px;
+    opacity: 0;
+    transition: 0.2s;
+    pointer-events: none;
+}
+.search:hover .wskazówka {
+    opacity: 1;
+}
+input {
+    height: 28px;
+    flex:1;
+
+}
+.mikrofon {
+    height: 24px;
+    margin-top: 4px;
+    margin-right: 5px;
+    
+}
+.micro {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+    border: none;
+    position: relative;
+}
+.micro .wskazówka {
+    bottom:-45px;
+    left: -26px;
+}
+.micro:hover .wskazówka{
+    opacity:1;
+}
+.prawo {
+    display: flex;
+}
+.ikona {
+    margin-left: 35px;
+    height: 28px
+}
+.ikona-profil {
+    height: 28px;
+    border-radius: 50%;
+    margin-left: 35px;
+    margin-right: 20px;
+}
+.header2 {
+    display: flex;
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    z-index: 1px;
+}
+.przycisk {
+    height: 28px;
+    width: 80px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    margin-left: 14px;
+}
+.przycisk1 {
+    height: 28px;
+    width: 80px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    margin-left: 14px;
+    margin-left: 450px;
+}
+.przycisk1, .przycisk{
+    transition: 0.4s;
+}
+.przycisk:hover, .przycisk1:hover {
+    background-color: rgb(90, 90, 90);
+    color: white;
+}
+
